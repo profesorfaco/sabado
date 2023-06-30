@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 150">
+    <style type="text/css">
+        .st0 {
+            fill: #ffffff;
+            opacity: 0.5;
+        }
+        @keyframes muevete {
+            from {
+                transform: translate(0, 0);
+            }
+            to {
+                transform: translate(100%, 0);
+            }
+        }
+        g#oculta {
+            animation: muevete 3s infinite linear;
+            animation-timing-function: steps(8, end);
+        }
+    </style>
+    <image style="overflow: visible;" width="800" height="150" href="envion.png"></image>
+    <g id="oculta">
+        <rect x="99" class="st0" width="701" height="150" />
+        <rect x="-701" class="st0" width="701" height="150" />
+    </g>
+</svg>
